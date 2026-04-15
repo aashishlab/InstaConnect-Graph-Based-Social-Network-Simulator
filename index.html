@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InstaConnect Graph</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+  <div class="controls">
+    <h2>📱 InstaConnect</h2>
+    <input id="username" type="text" placeholder="Enter username" />
+    <button onclick="addUser()">Add User</button>
+
+    <select id="userA"></select>
+    <select id="userB"></select>
+    <button onclick="followUser()">Follow</button>
+    <button onclick="unfollowUser()">Unfollow</button>
+  </div>
+
+  <svg id="graph"></svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
