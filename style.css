@@ -18,17 +18,19 @@ body {
   backdrop-filter: blur(10px);
 }
 
-.controls h2 {
-  color: #f472b6;
-  margin-bottom: 10px;
-  text-align: center;
-}
+
 
 input, select, button {
   padding: 8px;
   border: none;
   border-radius: 6px;
   font-size: 14px;
+}
+
+.controls h2 {
+  color: #f472b6;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 input, select {
